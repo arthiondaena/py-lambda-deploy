@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy code to Lambda
-      uses: arthiondaena/py-lambda-deploy@main
+      uses: arthiondaena/py-lambda-deploy@v1.0
       with:
         lambda_layer_arn: 'arn:aws:lambda:us-east-1:123445678987:layer:Hello_world2'
         lambda_function_name: 'arn:aws:lambda:us-east-1:123445678987:function:Hello_world_2'
