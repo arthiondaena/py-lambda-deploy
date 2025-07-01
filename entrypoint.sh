@@ -11,7 +11,7 @@ echo "Requested Python version: $INPUT_PYTHON_VERSION"
 apt-get update
 add-apt-repository ppa:deadsnakes/ppa -y
 apt-get update
-apt-get install -y python${INPUT_PYTHON_VERSION} python${INPUT_PYTHON_VERSION}-dev python${INPUT_PYTHON_VERSION}-distutils python3-pip
+apt-get install -y python${INPUT_PYTHON_VERSION} python${INPUT_PYTHON_VERSION}-dev python3-pip
 
 curl -sS https://bootstrap.pypa.io/get-pip.py | python${INPUT_PYTHON_VERSION}
 
