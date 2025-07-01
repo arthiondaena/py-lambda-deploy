@@ -1,4 +1,4 @@
-name: Python AWS Lambda Deploy
+name: Python AWS Lambda Deployment
 author: Arthion Daena
 description: Deploy python code to AWS Lambda with dependencies in a separate layer along with custom python version.
 inputs:
